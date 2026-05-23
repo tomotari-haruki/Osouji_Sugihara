@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>おそうじのスギハラ（デモサイト） | 八尾市のハウスクリーニング・無料見積もり</title>
-    <meta name="description" content="大阪府八尾市のハウスクリーニングなら、おそうじのスギハラへ。15年以上の経験を持つ清掃スタッフが、エアコン洗浄・レンジフード・キッチン・浴室などを丁寧に対応。見積もり・出張費無料。">
+    <title>Your Name Portfolio | Web Design / Frontend / UI改善</title>
+    <meta name="description" content="Webデザイン、フロントエンド実装、UI/UX改善、SEO設計まで対応するポートフォリオサイトです。実績、スキル、制作プロセス、問い合わせ先を分かりやすく掲載しています。">
     <meta name="theme-color" content="#0f8b8d">
-    <meta property="og:title" content="おそうじのスギハラ | 八尾市のハウスクリーニング">
-    <meta property="og:description" content="八尾市・周辺エリア対応。見積もり無料、出張費無料。15年以上の経験で住まいも店舗も清潔に。">
+    <meta property="og:title" content="Your Name Portfolio | Web Design / Frontend">
+    <meta property="og:description" content="Web制作・UI改善・フロントエンド実装の実績と制作プロセスを紹介するポートフォリオサイトです。">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/hero-living-room-1800.jpg">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -19,146 +19,101 @@
         "@graph": [
           {
             "@type": "WebSite",
-            "@id": "https://demo.local/osouji-sugihara/#website",
-            "name": "おそうじのスギハラ デモサイト",
-            "url": "https://demo.local/osouji-sugihara/",
+            "@id": "https://example.com/#website",
+            "name": "Your Name Portfolio",
+            "url": "https://example.com/",
             "inLanguage": "ja",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://demo.local/osouji-sugihara/?q={search_term_string}",
+              "target": "https://example.com/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
           {
-            "@type": "LocalBusiness",
-            "@id": "https://demo.local/osouji-sugihara/#business",
-            "name": "おそうじのスギハラ",
-            "description": "大阪府八尾市のハウスクリーニング業者。15年以上の経験を持つ清掃スタッフが、個人宅から店舗・病院・企業まで幅広く対応します。",
-            "image": "assets/hero-living-room-1800.jpg",
-            "telephone": "072-925-9755",
-            "priceRange": "¥6,600-¥16,500",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "南小阪合町5丁目9-25",
-              "addressLocality": "八尾市",
-              "addressRegion": "大阪府",
-              "addressCountry": "JP"
-            },
-            "areaServed": ["八尾市", "東大阪市", "柏原市", "藤井寺市", "松原市", "大阪市平野区"],
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "09:00",
-              "closes": "20:00"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "ハウスクリーニングメニュー",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "name": "エアコン洗浄",
-                  "price": "11000",
-                  "priceCurrency": "JPY"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "レンジフードクリーニング",
-                  "price": "13200",
-                  "priceCurrency": "JPY"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "キッチンクリーニング",
-                  "price": "16500",
-                  "priceCurrency": "JPY"
-                },
-                {
-                  "@type": "Offer",
-                  "name": "浴室クリーニング",
-                  "price": "13200",
-                  "priceCurrency": "JPY"
-                }
+            "@type": "ProfilePage",
+            "@id": "https://example.com/#profile",
+            "name": "Your Name Portfolio",
+            "url": "https://example.com/",
+            "mainEntity": {
+              "@type": "Person",
+              "name": "Your Name",
+              "jobTitle": "Web Designer / Frontend Developer",
+              "description": "Webサイト設計、UI/UX改善、フロントエンド実装、SEO設計を行う制作者のポートフォリオです。",
+              "email": "hello@example.com",
+              "knowsAbout": ["Web Design", "Frontend Development", "UI/UX", "SEO", "Accessibility"],
+              "sameAs": [
+                "https://github.com/yourname",
+                "https://www.linkedin.com/in/yourname"
               ]
-            },
-            "termsOfService": "https://demo.local/osouji-sugihara/#commerce"
-          },
-          {
-            "@type": "Service",
-            "@id": "https://demo.local/osouji-sugihara/#aircon-cleaning",
-            "name": "エアコン洗浄",
-            "serviceType": "ハウスクリーニング",
-            "provider": {
-              "@id": "https://demo.local/osouji-sugihara/#business"
-            },
-            "areaServed": "大阪府八尾市および周辺エリア",
-            "offers": {
-              "@type": "Offer",
-              "price": "11000",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock"
             }
           },
           {
-            "@type": "Service",
-            "@id": "https://demo.local/osouji-sugihara/#water-cleaning",
-            "name": "水まわりクリーニング",
-            "serviceType": "キッチン・浴室・洗面所・トイレクリーニング",
-            "provider": {
-              "@id": "https://demo.local/osouji-sugihara/#business"
-            },
-            "areaServed": "大阪府八尾市および周辺エリア"
+            "@type": "ItemList",
+            "@id": "https://example.com/#projects",
+            "name": "Portfolio Projects",
+            "itemListElement": [
+              {
+                "@type": "CreativeWork",
+                "position": 1,
+                "name": "Local Business Website",
+                "description": "地域事業者向けの問い合わせ導線とSEOを意識したWebサイト制作。"
+              },
+              {
+                "@type": "CreativeWork",
+                "position": 2,
+                "name": "SaaS Dashboard UI",
+                "description": "業務画面の情報整理、導線改善、レスポンシブUI設計。"
+              },
+              {
+                "@type": "CreativeWork",
+                "position": 3,
+                "name": "Landing Page Optimization",
+                "description": "ファーストビュー、CTA、フォーム改善によるCVR向上支援。"
+              }
+            ]
           },
           {
             "@type": "FAQPage",
-            "@id": "https://demo.local/osouji-sugihara/#faq",
+            "@id": "https://example.com/#faq",
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "見積もりは無料ですか？",
+                "name": "どのような制作を依頼できますか？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "はい、見積もりは無料です。作業内容や現場状況を確認したうえで、料金をご案内します。"
+                  "text": "Webサイト、ランディングページ、UI改善、フロントエンド実装、SEOを意識した構成設計などを相談できます。"
                 }
               },
               {
                 "@type": "Question",
-                "name": "出張費はかかりますか？",
+                "name": "既存サイトの改善相談はできますか？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "八尾市および周辺エリアへの出張費は無料です。遠方の場合は事前にご相談ください。"
+                  "text": "はい。現状の課題を整理し、導線、表示速度、アクセシビリティ、SEOの観点から改善案を提案します。"
                 }
               },
               {
                 "@type": "Question",
-                "name": "エアコン下の家具を動かせない場合も依頼できますか？",
+                "name": "レスポンシブ対応は可能ですか？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "家具移動が難しい場合でも、養生を行いながら可能な範囲で対応します。"
+                  "text": "スマートフォン、タブレット、PCで読みやすく操作しやすいレイアウトを前提に制作します。"
                 }
               },
               {
                 "@type": "Question",
-                "name": "ダクト掃除には対応していますか？",
+                "name": "制作期間はどれくらいですか？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "申し訳ありませんが、ダクト掃除には対応していません。"
+                  "text": "内容や規模によりますが、小規模な1ページサイトはおおよそ1〜3週間を目安にしています。"
                 }
               },
               {
                 "@type": "Question",
-                "name": "カビは完全に落とせますか？",
+                "name": "問い合わせ前に準備するものはありますか？",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "専用薬剤で除去を行いますが、素材や浸透状況によって結果が変わるため、現場確認が必要です。"
+                  "text": "目的、ターゲット、掲載したい内容、参考サイト、希望納期があると相談がスムーズです。"
                 }
               }
             ]
@@ -172,16 +127,16 @@
 
     <header class="site-header" data-header>
       <div class="topline">
-        <p>大阪府八尾市発 | 見積もり無料・出張費無料</p>
-        <a class="topline__phone" href="tel:0729259755" data-track="header_phone">072&#8209;925&#8209;9755</a>
+        <p>Portfolio Site | Web Design / Frontend / UI Improvement</p>
+        <a class="topline__phone" href="mailto:hello@example.com" data-track="header_phone">hello@example.com</a>
       </div>
 
       <div class="site-header__inner">
-        <a class="brand" href="#hero" aria-label="おそうじのスギハラ トップへ">
-          <span class="brand__mark" aria-hidden="true">S</span>
+        <a class="brand" href="#hero" aria-label="Your Name Portfolio トップへ">
+          <span class="brand__mark" aria-hidden="true">Y</span>
           <span>
-            <span class="brand__name">おそうじのスギハラ</span>
-            <span class="brand__tag">八尾市のハウスクリーニング</span>
+            <span class="brand__name">Your Name</span>
+            <span class="brand__tag">Web Designer / Frontend Developer</span>
           </span>
         </a>
 
@@ -194,7 +149,7 @@
         <nav class="site-nav" id="site-nav" aria-label="主要ナビゲーション" data-nav>
           <form class="site-search" role="search" data-site-search>
             <label class="visually-hidden" for="site-search-input">サイト内検索</label>
-            <input id="site-search-input" name="q" type="search" placeholder="サービスを検索" autocomplete="off">
+            <input id="site-search-input" name="q" type="search" placeholder="実績を検索" autocomplete="off">
             <button type="submit" aria-label="検索">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M10.8 18.1a7.3 7.3 0 1 1 0-14.6 7.3 7.3 0 0 1 0 14.6Zm5.5-1.7 4.2 4.2" />
@@ -202,419 +157,415 @@
             </button>
           </form>
           <ul class="site-nav__list">
-            <li><a href="#services">サービス</a></li>
+            <li><a href="#services">できること</a></li>
             <li><a href="#strengths">強み</a></li>
-            <li><a href="#cases">事例</a></li>
-            <li><a href="#reviews">お客様の声</a></li>
-            <li><a href="#company">会社情報</a></li>
-            <li><a class="site-nav__cta" href="#contact" data-track="nav_quote">無料見積もり</a></li>
+            <li><a href="#cases">実績</a></li>
+            <li><a href="#reviews">推薦コメント</a></li>
+            <li><a href="#company">プロフィール</a></li>
+            <li><a class="site-nav__cta" href="#contact" data-track="nav_quote">相談する</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main id="main">
-      <section class="hero" id="hero" aria-labelledby="hero-title" data-keywords="トップ 無料見積もり お問い合わせ 八尾市 清掃 ハウスクリーニング">
+      <section class="hero" id="hero" aria-labelledby="hero-title" data-keywords="トップ ポートフォリオ Web制作 UI UX フロントエンド 問い合わせ">
         <picture class="hero__media">
           <source srcset="assets/hero-living-room-1800.webp" type="image/webp">
-          <img src="assets/hero-living-room-1800.jpg" width="1800" height="1013" alt="明るいリビングをモップで清掃している様子" fetchpriority="high">
+          <img src="assets/hero-living-room-1800.jpg" width="1800" height="1013" alt="落ち着いた室内で作業する人物のイメージ" fetchpriority="high">
         </picture>
         <div class="hero__overlay" aria-hidden="true"></div>
         <div class="hero__inner">
           <div class="hero__content">
-            <p class="eyebrow">八尾市・周辺エリアへ出張対応</p>
-            <h1 id="hero-title"><span class="hero-title__line">汚れの悩みを、</span><span class="hero-title__line">プロの手で</span><span class="hero-title__line">きれいに。</span></h1>
-            <p class="hero__lead">15年以上の経験を持つ清掃スタッフが、住まい・店舗・病院・企業の状況に合わせて、無理のない料金と丁寧な作業で対応します。</p>
-            <div class="hero__actions" role="group" aria-label="主要なお問い合わせ導線">
+            <p class="eyebrow">Web Design / Frontend / UI Improvement</p>
+            <h1 id="hero-title"><span class="hero-title__line">伝わるサイトを、</span><span class="hero-title__line">使いやすく</span><span class="hero-title__line">形にする。</span></h1>
+            <p class="hero__lead">目的整理から設計、実装、改善提案まで。ユーザーにとって分かりやすく、運用する側にも扱いやすいWeb体験をつくります。</p>
+            <div class="hero__actions" role="group" aria-label="主要な問い合わせ導線">
               <a class="button button--primary" href="#contact" data-track="hero_quote">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
-                無料見積もりを相談
+                制作相談をする
               </a>
-              <a class="button button--secondary" href="tel:0729259755" data-track="hero_phone">
+              <a class="button button--secondary" href="#cases" data-track="hero_phone">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M7 4h3l1.5 4-2 1.2a10 10 0 0 0 5.3 5.3l1.2-2 4 1.5v3a2 2 0 0 1-2.2 2A16 16 0 0 1 5 6.2 2 2 0 0 1 7 4Z" />
                 </svg>
-                電話で問い合わせ
+                実績を見る
               </a>
             </div>
           </div>
           <div class="hero__panel">
             <div>
-              <span class="hero__metric">¥0</span>
-              <span>見積もり・出張費</span>
+              <span class="hero__metric">30+</span>
+              <span>制作・改善案</span>
             </div>
             <div>
-              <span class="hero__metric">15年+</span>
-              <span>清掃経験</span>
+              <span class="hero__metric">UI/UX</span>
+              <span>設計と改善</span>
             </div>
             <div>
-              <span class="hero__metric">9-20</span>
-              <span>電話受付</span>
+              <span class="hero__metric">SEO</span>
+              <span>構成設計</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section section--intro" aria-labelledby="worries-title" data-keywords="悩み カビ 油汚れ エアコン 臭い 忙しい">
+      <section class="section section--intro" aria-labelledby="worries-title" data-keywords="課題 UI UX SEO レスポンシブ 導線 改善">
         <div class="container intro-grid">
           <div>
-            <p class="eyebrow">よくあるお悩み</p>
-            <h2 id="worries-title">こんなお悩みはありませんか？</h2>
-            <p>落ちにくい汚れや、分解が必要な清掃は無理をすると傷や故障につながることがあります。現場に合わせて、必要な作業を分かりやすくご提案します。</p>
+            <p class="eyebrow">Project Issues</p>
+            <h2 id="worries-title">こんな課題を整理できます。</h2>
+            <p>見た目を整えるだけでなく、誰に何を伝え、どの行動につなげるかを一緒に整理します。小さな改善から新規制作まで対応できます。</p>
           </div>
           <ul class="worry-list">
-            <li>エアコンのカビ臭や効きの悪さが気になる</li>
-            <li>レンジフードの油汚れが固まって落ちない</li>
-            <li>浴室のカビや水垢をまとめてきれいにしたい</li>
-            <li>店舗や医院を定期的に清潔に保ちたい</li>
-            <li>料金が分かりにくく、依頼前に不安がある</li>
+            <li>サイトの目的や導線がぼんやりしている</li>
+            <li>スマホで読みにくく、問い合わせまで遠い</li>
+            <li>実績やサービス内容の見せ方を改善したい</li>
+            <li>SEOやアクセシビリティの基礎を整えたい</li>
+            <li>既存デザインを保ちながらUIだけ改善したい</li>
           </ul>
         </div>
       </section>
 
-      <section class="section" id="services" aria-labelledby="services-title" data-keywords="サービス 料金 エアコン レンジフード キッチン 浴室 洗面所 トイレ">
+      <section class="section" id="services" aria-labelledby="services-title" data-keywords="できること Web制作 UI UX フロントエンド SEO アクセシビリティ">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">サービスと料金</p>
-            <h2 id="services-title">必要な場所だけ、分かりやすい料金で。</h2>
-            <p>表示料金は税込の目安です。汚れの状態や設備仕様を確認し、作業前に内容と料金をお伝えします。</p>
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">設計から実装、改善まで一貫して。</h2>
+            <p>プロジェクトの状況に合わせて、必要な部分だけでも相談できます。以下は代表的な対応領域です。</p>
           </div>
 
           <div class="service-grid">
-            <article class="service-card" data-keywords="エアコン 洗浄 自動お掃除機能 カビ 臭い">
+            <article class="service-card" data-keywords="Webサイト LP ホームページ 制作">
               <picture>
                 <source srcset="assets/service-aircon-900.webp" type="image/webp">
-                <img src="assets/service-aircon-900.jpg" width="900" height="600" loading="lazy" alt="壁掛けエアコンの清掃イメージ">
+                <img src="assets/service-aircon-900.jpg" width="900" height="600" loading="lazy" alt="Webサイト制作を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>エアコン洗浄</h3>
-                  <p class="price">¥11,000</p>
+                  <h3>Webサイト制作</h3>
+                  <p class="price">Design</p>
                 </div>
-                <p>内部のカビやホコリを高圧洗浄。自動お掃除機能付きは¥16,500で対応します。</p>
+                <p>目的、ターゲット、掲載情報を整理し、信頼感と行動導線を両立したページを設計します。</p>
               </div>
             </article>
 
-            <article class="service-card" data-keywords="レンジフード 換気扇 油汚れ">
+            <article class="service-card" data-keywords="UI UX 改善 導線 情報設計">
               <picture>
                 <source srcset="assets/service-kitchen-900.webp" type="image/webp">
-                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="キッチン周りの清掃用品とシンク">
+                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="UI改善を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>レンジフード</h3>
-                  <p class="price">¥13,200</p>
+                  <h3>UI/UX改善</h3>
+                  <p class="price">UX</p>
                 </div>
-                <p>分解できる部品を外し、固着した油汚れを丁寧に洗浄。換気効率の低下を防ぎます。</p>
+                <p>画面の迷いやすさ、情報の優先順位、CTA配置を見直し、使いやすい体験へ整えます。</p>
               </div>
             </article>
 
-            <article class="service-card" data-keywords="キッチン シンク コンロ 水垢 油汚れ">
+            <article class="service-card" data-keywords="フロントエンド HTML CSS JavaScript 実装">
               <picture>
                 <source srcset="assets/service-kitchen-900.webp" type="image/webp">
-                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="清潔なキッチンシンクの清掃イメージ">
+                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="フロントエンド実装を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>キッチン</h3>
-                  <p class="price">¥16,500</p>
+                  <h3>フロントエンド実装</h3>
+                  <p class="price">Code</p>
                 </div>
-                <p>コンロ、シンク、ワークトップの油汚れ・水垢をまとめて清掃します。</p>
+                <p>HTML、CSS、JavaScriptを中心に、保守しやすくレスポンシブなUIを実装します。</p>
               </div>
             </article>
 
-            <article class="service-card" data-keywords="浴室 風呂 カビ 水垢 石けんカス">
+            <article class="service-card" data-keywords="SEO メタタグ 構造化データ 検索">
               <picture>
                 <source srcset="assets/service-bathroom-900.webp" type="image/webp">
-                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="白い洗面台と浴室まわりの清潔なイメージ">
+                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="SEO設計を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>浴室</h3>
-                  <p class="price">¥13,200</p>
+                  <h3>SEO設計</h3>
+                  <p class="price">SEO</p>
                 </div>
-                <p>カビ、水垢、石けんカスを場所ごとに薬剤を使い分けて除去します。</p>
+                <p>見出し、メタ情報、構造化データ、内部リンクを整え、検索エンジンにも伝わる構成にします。</p>
               </div>
             </article>
 
-            <article class="service-card" data-keywords="洗面所 洗面台 鏡 水垢">
+            <article class="service-card" data-keywords="アクセシビリティ WCAG 読みやすさ">
               <picture>
                 <source srcset="assets/service-bathroom-900.webp" type="image/webp">
-                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="洗面所クリーニングのイメージ">
+                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="アクセシビリティ改善を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>洗面所</h3>
-                  <p class="price">¥6,600</p>
+                  <h3>アクセシビリティ</h3>
+                  <p class="price">A11y</p>
                 </div>
-                <p>洗面ボウル、鏡、蛇口まわりのくすみを整え、毎日使う場所を明るくします。</p>
+                <p>コントラスト、ラベル、キーボード操作、読み上げに配慮し、より多くの人が使える形へ近づけます。</p>
               </div>
             </article>
 
-            <article class="service-card" data-keywords="トイレ 便器 床 手洗い 除菌">
+            <article class="service-card" data-keywords="運用 改善 分析 A/Bテスト">
               <picture>
                 <source srcset="assets/service-bathroom-900.webp" type="image/webp">
-                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="水まわり清掃のイメージ">
+                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="継続改善を表すプロジェクトイメージ">
               </picture>
               <div class="service-card__body">
                 <div class="service-card__top">
-                  <h3>トイレ</h3>
-                  <p class="price">¥6,600</p>
+                  <h3>継続改善</h3>
+                  <p class="price">Growth</p>
                 </div>
-                <p>便器内外、床、手洗いまわりを清掃。気になるニオイや黄ばみにも対応します。</p>
+                <p>公開後の行動データやフィードバックをもとに、仮説検証しながら改善を重ねます。</p>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section--strengths" id="strengths" aria-labelledby="strengths-title" data-keywords="強み 15年 経験 八尾市 出張 エリア 店舗 病院 企業">
+      <section class="section section--strengths" id="strengths" aria-labelledby="strengths-title" data-keywords="強み 設計 実装 改善 コミュニケーション">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">選ばれる理由</p>
-            <h2 id="strengths-title">現場ごとに、ちょうどいい清掃を。</h2>
+            <p class="eyebrow">Strengths</p>
+            <h2 id="strengths-title">見た目と成果の間を、丁寧につなぎます。</h2>
           </div>
 
           <div class="strength-grid">
             <article class="strength-item">
               <span class="strength-item__number">01</span>
-              <h3>15年以上の経験</h3>
-              <p>汚れの種類、素材、設備の状態を見極め、無理に削らずきれいに仕上げる方法を選びます。</p>
+              <h3>目的から逆算</h3>
+              <p>誰に何を届けるか、どの行動につなげるかを整理し、情報設計に落とし込みます。</p>
             </article>
             <article class="strength-item">
               <span class="strength-item__number">02</span>
-              <h3>幅広い現場に対応</h3>
-              <p>個人宅はもちろん、店舗・病院・企業まで。営業時間や利用状況に合わせて相談できます。</p>
+              <h3>実装まで見据えた設計</h3>
+              <p>デザインの意図を保ちながら、レスポンシブや保守性も考慮して形にします。</p>
             </article>
             <article class="strength-item">
               <span class="strength-item__number">03</span>
-              <h3>分かりやすい説明</h3>
-              <p>作業前に内容と注意点を共有。家具移動が難しい場合も、養生しながらできる方法を考えます。</p>
+              <h3>改善しやすい土台</h3>
+              <p>計測、フォーム、コンテンツ更新を考え、公開後も育てられるサイト構成を意識します。</p>
             </article>
           </div>
 
           <div class="area-band">
             <div>
-              <p class="eyebrow">対応エリア</p>
-              <h3 id="area-title">八尾市を中心に近隣エリアへ出張</h3>
-              <p>八尾市南小阪合町から、暮らしや事業の現場へ伺います。下記以外の地域もまずはご相談ください。</p>
+              <p class="eyebrow">Skill Set</p>
+              <h3 id="area-title">プロジェクトに合わせて組み合わせます。</h3>
+              <p>小さな静的サイトから、運用を見据えたWeb改善まで。必要な技術を過不足なく選びます。</p>
             </div>
             <ul class="area-map">
-              <li class="area-map__center">八尾市</li>
-              <li>東大阪市</li>
-              <li>柏原市</li>
-              <li>藤井寺市</li>
-              <li>松原市</li>
-              <li>大阪市平野区</li>
+              <li class="area-map__center">HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive</li>
+              <li>SEO</li>
+              <li>Accessibility</li>
+              <li>Analytics</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <section class="section" aria-labelledby="flow-title" data-keywords="予約 問い合わせ 流れ 作業 見積もり">
+      <section class="section" aria-labelledby="flow-title" data-keywords="制作フロー 相談 設計 実装 改善">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">ご利用の流れ</p>
-            <h2 id="flow-title">問い合わせから作業完了までスムーズに。</h2>
+            <p class="eyebrow">Process</p>
+            <h2 id="flow-title">相談から公開後の改善まで。</h2>
           </div>
           <ol class="flow-list">
             <li>
               <span>1</span>
               <h3>相談</h3>
-              <p>電話またはフォームで、希望サービス・住所・希望日時をお知らせください。</p>
+              <p>目的、課題、ターゲット、希望納期を確認し、必要な範囲を整理します。</p>
             </li>
             <li>
               <span>2</span>
-              <h3>見積もり</h3>
-              <p>現場状況を確認し、無料で料金と作業範囲をご案内します。</p>
+              <h3>設計</h3>
+              <p>情報構成、画面導線、見出し、CTA、フォーム項目を具体化します。</p>
             </li>
             <li>
               <span>3</span>
-              <h3>作業</h3>
-              <p>養生、分解、洗浄、確認まで、住まいに配慮して丁寧に進めます。</p>
+              <h3>制作</h3>
+              <p>デザインと実装を進め、スマホ・タブレット・PCで表示を確認します。</p>
             </li>
             <li>
               <span>4</span>
-              <h3>確認</h3>
-              <p>仕上がりを一緒に確認し、今後のお手入れのポイントもお伝えします。</p>
+              <h3>改善</h3>
+              <p>公開後の反応を見ながら、文章、導線、フォーム、速度を調整します。</p>
             </li>
           </ol>
         </div>
       </section>
 
-      <section class="section section--cases" id="cases" aria-labelledby="cases-title" data-keywords="作業事例 ビフォーアフター エアコン キッチン 浴室">
+      <section class="section section--cases" id="cases" aria-labelledby="cases-title" data-keywords="実績 プロジェクト ポートフォリオ UI改善 LP Webサイト">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">作業事例</p>
-            <h2 id="cases-title">汚れの状態に合わせて、無理のない方法を選びます。</h2>
-            <p>以下は提案用のデモ事例です。実際の施工写真を掲載できるようになれば、検索流入と問い合わせ前の安心感をさらに高められます。</p>
+            <p class="eyebrow">Projects</p>
+            <h2 id="cases-title">課題に合わせた制作・改善例。</h2>
+            <p>以下は汎用ポートフォリオ用のサンプル実績です。実際の案件名、成果、担当範囲に差し替えて使えます。</p>
           </div>
           <div class="case-grid">
             <article class="case-card">
               <picture>
                 <source srcset="assets/service-aircon-900.webp" type="image/webp">
-                <img src="assets/service-aircon-900.jpg" width="900" height="600" loading="lazy" alt="エアコン洗浄の作業事例イメージ">
+                <img src="assets/service-aircon-900.jpg" width="900" height="600" loading="lazy" alt="地域事業者向けWebサイト制作の実績イメージ">
               </picture>
               <div class="case-card__body">
-                <p class="case-card__label">エアコン洗浄</p>
-                <h3>カビ臭と風量低下が気になるケース</h3>
-                <p>周囲を養生し、内部のホコリやカビ汚れを洗浄。作業後は乾燥運転と日常のお手入れ方法を案内します。</p>
+                <p class="case-card__label">Website</p>
+                <h3>地域事業者向けWebサイト</h3>
+                <p>問い合わせ導線、料金表示、FAQ、構造化データを整理し、信頼感のある1ページサイトとして設計しました。</p>
               </div>
             </article>
             <article class="case-card">
               <picture>
                 <source srcset="assets/service-kitchen-900.webp" type="image/webp">
-                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="キッチンクリーニングの作業事例イメージ">
+                <img src="assets/service-kitchen-900.jpg" width="675" height="900" loading="lazy" alt="業務画面UI改善の実績イメージ">
               </picture>
               <div class="case-card__body">
-                <p class="case-card__label">キッチン</p>
-                <h3>油汚れと水垢をまとめて整えるケース</h3>
-                <p>素材を確認しながら薬剤を使い分け、コンロ・シンク・作業台を清掃。落としにくい汚れは事前に説明します。</p>
+                <p class="case-card__label">UI/UX</p>
+                <h3>業務画面のUI改善</h3>
+                <p>一覧性、状態表示、フォーム入力の負担を見直し、繰り返し使う画面として迷いにくい構成にしました。</p>
               </div>
             </article>
             <article class="case-card">
               <picture>
                 <source srcset="assets/service-bathroom-900.webp" type="image/webp">
-                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="浴室クリーニングの作業事例イメージ">
+                <img src="assets/service-bathroom-900.jpg" width="600" height="900" loading="lazy" alt="ランディングページ改善の実績イメージ">
               </picture>
               <div class="case-card__body">
-                <p class="case-card__label">浴室</p>
-                <h3>カビ・石けんカス・水垢が混在するケース</h3>
-                <p>汚れの種類ごとに作業を分け、素材への負担に配慮して清掃します。カビの浸透状況は現場確認が必要です。</p>
+                <p class="case-card__label">Landing Page</p>
+                <h3>LPのCTAとフォーム改善</h3>
+                <p>ファーストビュー、比較情報、入力項目を整理し、ユーザーが次の行動を選びやすい構成に調整しました。</p>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section--reviews" id="reviews" aria-labelledby="reviews-title" data-keywords="口コミ お客様の声 レビュー 評価">
+      <section class="section section--reviews" id="reviews" aria-labelledby="reviews-title" data-keywords="推薦コメント レビュー クライアント 声">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">お客様の声（デモです）</p>
-            <h2 id="reviews-title">相談しやすさと仕上がりに評価をいただいています。</h2>
+            <p class="eyebrow">Testimonials</p>
+            <h2 id="reviews-title">一緒に進めやすい制作を大切にしています。</h2>
           </div>
           <div class="review-grid">
             <figure class="review-card">
               <div class="stars" role="img" aria-label="5つ星中5">★★★★★</div>
-              <blockquote>エアコンのニオイが気になって依頼しました。作業前の説明が丁寧で、家具の養生も安心できました。</blockquote>
-              <figcaption>八尾市・戸建てのお客様</figcaption>
+              <blockquote>要件が曖昧な段階から相談しやすく、情報整理と導線設計まで丁寧に進めてもらえました。</blockquote>
+              <figcaption>小規模事業者 / Webサイト制作</figcaption>
             </figure>
             <figure class="review-card">
               <div class="stars" role="img" aria-label="5つ星中5">★★★★★</div>
-              <blockquote>レンジフードの油汚れが見違えるほどきれいに。料金が事前に分かったので頼みやすかったです。</blockquote>
-              <figcaption>東大阪市・マンションのお客様</figcaption>
+              <blockquote>スマホ表示の読みやすさとフォーム導線が改善され、社内でも運用しやすい構成になりました。</blockquote>
+              <figcaption>サービス運営チーム / UI改善</figcaption>
             </figure>
             <figure class="review-card">
               <div class="stars" role="img" aria-label="5つ星中4">★★★★☆</div>
-              <blockquote>医院の水まわり清掃をお願いしました。時間の相談に乗ってもらえて、営業への影響を抑えられました。</blockquote>
-              <figcaption>八尾市・事業者のお客様</figcaption>
+              <blockquote>見た目だけでなく、SEOやアクセシビリティの観点も含めて提案してくれたのが助かりました。</blockquote>
+              <figcaption>マーケティング担当 / LP改善</figcaption>
             </figure>
           </div>
         </div>
       </section>
 
-      <section class="section" id="faq" aria-labelledby="faq-title" data-keywords="FAQ よくある質問 無料 出張費 家具 ダクト カビ">
+      <section class="section" id="faq" aria-labelledby="faq-title" data-keywords="FAQ よくある質問 依頼 納期 料金 相談">
         <div class="container faq-layout">
           <div>
             <p class="eyebrow">FAQ</p>
             <h2 id="faq-title">よくある質問</h2>
-            <p>初めての方が気になりやすい内容をまとめました。個別の状況はお問い合わせ時に確認します。</p>
+            <p>依頼前に気になりやすいことをまとめました。具体的な条件はお問い合わせ時に確認します。</p>
           </div>
           <div class="faq-list" data-accordion>
             <details class="faq-item">
-              <summary>見積もりは無料ですか？</summary>
-              <p>はい、無料です。作業内容や汚れの状態を確認したうえで、料金を事前にご案内します。</p>
+              <summary>どのような制作を依頼できますか？</summary>
+              <p>Webサイト、ランディングページ、UI改善、フロントエンド実装、SEOを意識した構成設計などを相談できます。</p>
             </details>
             <details class="faq-item">
-              <summary>出張費はかかりますか？</summary>
-              <p>八尾市および周辺エリアへの出張費は無料です。遠方の場合は、事前にご相談ください。</p>
+              <summary>既存サイトの改善相談はできますか？</summary>
+              <p>はい。現状の課題を整理し、導線、表示速度、アクセシビリティ、SEOの観点から改善案を提案します。</p>
             </details>
             <details class="faq-item">
-              <summary>エアコン下の家具を動かせない場合も大丈夫ですか？</summary>
-              <p>家具移動が難しい場合でも、養生を行いながら可能な範囲で対応します。状況によって作業方法をご説明します。</p>
+              <summary>レスポンシブ対応は可能ですか？</summary>
+              <p>スマートフォン、タブレット、PCで読みやすく操作しやすいレイアウトを前提に制作します。</p>
             </details>
             <details class="faq-item">
-              <summary>ダクト掃除には対応していますか？</summary>
-              <p>申し訳ありませんが、ダクト掃除には対応していません。対応可能な範囲を事前にお伝えします。</p>
+              <summary>制作期間はどれくらいですか？</summary>
+              <p>内容や規模によりますが、小規模な1ページサイトはおおよそ1〜3週間を目安にしています。</p>
             </details>
             <details class="faq-item">
-              <summary>カビは完全に除去できますか？</summary>
-              <p>専用薬剤を使用しますが、素材や浸透状況により結果が異なります。現場確認のうえで、落とせる範囲と注意点をご説明します。</p>
+              <summary>問い合わせ前に準備するものはありますか？</summary>
+              <p>目的、ターゲット、掲載したい内容、参考サイト、希望納期があると相談がスムーズです。</p>
             </details>
           </div>
         </div>
       </section>
 
-      <section class="section section--company" id="company" aria-labelledby="company-title" data-keywords="会社概要 特定商取引法 所在地 電話 代表者 支払方法 キャンセル">
+      <section class="section section--company" id="company" aria-labelledby="company-title" data-keywords="プロフィール 経歴 スキル 連絡先 ポートフォリオ">
         <div class="container legal-layout">
           <div>
-            <p class="eyebrow">Company</p>
-            <h2 id="company-title">会社概要・法令表示</h2>
-            <p>問い合わせ前に必要な情報へすぐ到達できるよう、運営者情報と取引条件を同じエリアに整理しました。正式公開時は、代表者の氏名と支払条件を実態に合わせて確認してください。</p>
+            <p class="eyebrow">Profile</p>
+            <h2 id="company-title">プロフィール</h2>
+            <p>このセクションは汎用プロフィールとして使えるようにしています。名前、肩書き、SNS、対応範囲を自分の情報に差し替えてください。</p>
           </div>
           <div class="info-stack">
             <section class="info-panel" aria-labelledby="profile-title">
-              <h3 id="profile-title">会社概要</h3>
+              <h3 id="profile-title">基本情報</h3>
               <dl class="info-list">
                 <div>
-                  <dt>事業者名</dt>
-                  <dd>おそうじのスギハラ</dd>
+                  <dt>名前</dt>
+                  <dd>Your Name</dd>
                 </div>
                 <div>
-                  <dt>運営責任者</dt>
-                  <dd>杉原（正式氏名は公開前に確認）</dd>
+                  <dt>肩書き</dt>
+                  <dd>Web Designer / Frontend Developer</dd>
                 </div>
                 <div>
-                  <dt>所在地</dt>
-                  <dd>大阪府八尾市南小阪合町5丁目9-25</dd>
+                  <dt>拠点</dt>
+                  <dd>Japan / Remote Available</dd>
                 </div>
                 <div>
-                  <dt>電話番号</dt>
-                  <dd><a href="tel:0729259755">072&#8209;925&#8209;9755</a></dd>
+                  <dt>メール</dt>
+                  <dd><a href="mailto:hello@example.com">hello@example.com</a></dd>
                 </div>
                 <div>
-                  <dt>受付時間</dt>
-                  <dd>9:00〜20:00</dd>
+                  <dt>稼働</dt>
+                  <dd>新規制作、改善相談、短期レビューに対応</dd>
                 </div>
                 <div>
-                  <dt>対応エリア</dt>
-                  <dd>八尾市、東大阪市、柏原市、藤井寺市、松原市、大阪市平野区周辺</dd>
+                  <dt>SNS / GitHub</dt>
+                  <dd>github.com/yourname / linkedin.com/in/yourname</dd>
                 </div>
               </dl>
             </section>
 
             <section class="info-panel" id="commerce" aria-labelledby="commerce-title">
-              <h3 id="commerce-title">特定商取引法に基づく表記</h3>
+              <h3 id="commerce-title">制作条件の目安</h3>
               <dl class="info-list">
                 <div>
-                  <dt>役務の内容</dt>
-                  <dd>エアコン洗浄、レンジフード、キッチン、浴室、洗面所、トイレなどのハウスクリーニング</dd>
+                  <dt>対応内容</dt>
+                  <dd>Webサイト制作、LP制作、UI改善、HTML/CSS/JavaScript実装、SEO・アクセシビリティ改善</dd>
+                </div>
+                <div>
+                  <dt>進め方</dt>
+                  <dd>目的確認、情報整理、構成案、制作、確認、公開後改善の順で進めます。</dd>
                 </div>
                 <div>
                   <dt>料金</dt>
-                  <dd>各サービスカードに税込目安を表示。現場状況により変動する場合は、作業前に見積もりを提示します。</dd>
+                  <dd>内容と範囲により個別に提案します。小さな改善相談から対応できます。</dd>
                 </div>
                 <div>
-                  <dt>料金以外の費用</dt>
-                  <dd>八尾市および周辺エリアの見積もり・出張費は無料。駐車料金など実費が必要な場合は事前に説明します。</dd>
+                  <dt>納期</dt>
+                  <dd>1ページの静的サイトは1〜3週間が目安です。内容により変動します。</dd>
                 </div>
                 <div>
-                  <dt>支払方法・時期</dt>
-                  <dd>作業完了後の現金払い、または事前合意した方法。正式運用時は対応可能な決済方法を明記してください。</dd>
+                  <dt>コミュニケーション</dt>
+                  <dd>メール、チャット、オンラインMTGなど、プロジェクトに合わせて調整します。</dd>
                 </div>
                 <div>
-                  <dt>提供時期</dt>
-                  <dd>予約確定後、合意した日時に訪問して作業を実施します。</dd>
-                </div>
-                <div>
-                  <dt>キャンセル・変更</dt>
-                  <dd>前日20:00までの変更・キャンセルは無料。当日キャンセルや訪問後の作業不可は、予約内容に応じた実費またはキャンセル料を事前合意の範囲で請求する場合があります。</dd>
-                </div>
-                <div>
-                  <dt>作業後の対応</dt>
-                  <dd>仕上がりは当日確認をお願いします。気になる点は作業完了時または速やかにご相談ください。</dd>
+                  <dt>公開前確認</dt>
+                  <dd>テキスト、画像、リンク、フォーム、スマホ表示、SEOメタ情報を確認してから公開します。</dd>
                 </div>
               </dl>
             </section>
@@ -622,16 +573,16 @@
         </div>
       </section>
 
-      <section class="section section--contact" id="contact" aria-labelledby="contact-title" data-keywords="問い合わせ フォーム 電話 住所 営業時間 無料見積もり">
+      <section class="section section--contact" id="contact" aria-labelledby="contact-title" data-keywords="問い合わせ フォーム 相談 依頼 メール">
         <div class="container contact-grid">
           <div class="contact-copy">
-            <p class="eyebrow">お問い合わせ</p>
-            <h2 id="contact-title">まずは無料見積もりで、作業範囲を確認しましょう。</h2>
-            <p>汚れの状態、希望日時、気になることをお知らせください。返信時に追加確認が必要な場合も、分かりやすくご案内します。</p>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">まずはプロジェクトの概要を聞かせてください。</h2>
+            <p>新規制作、既存サイトの改善、ポートフォリオの整理など、まだ固まっていない段階でも大丈夫です。</p>
             <address class="contact-info">
-              <span>電話: <a href="tel:0729259755" data-track="contact_phone">072&#8209;925&#8209;9755</a></span>
-              <span>受付: 9:00〜20:00</span>
-              <span>住所: 大阪府八尾市南小阪合町5丁目9-25</span>
+              <span>メール: <a href="mailto:hello@example.com" data-track="contact_phone">hello@example.com</a></span>
+              <span>返信目安: 2営業日以内</span>
+              <span>対応: 日本全国・リモート相談可</span>
             </address>
           </div>
 
@@ -641,37 +592,37 @@
               <input id="name" name="name" type="text" autocomplete="name" required>
             </div>
             <div class="form-row">
-              <label for="tel">電話番号 <span aria-hidden="true">必須</span></label>
-              <input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required>
+              <label for="tel">連絡先 <span aria-hidden="true">必須</span></label>
+              <input id="tel" name="tel" type="text" autocomplete="tel" required>
             </div>
             <div class="form-row">
               <label for="email">メールアドレス</label>
               <input id="email" name="email" type="email" autocomplete="email">
             </div>
             <div class="form-row">
-              <label for="service">希望サービス</label>
+              <label for="service">相談内容</label>
               <select id="service" name="service">
                 <option value="">選択してください</option>
-                <option>エアコン洗浄</option>
-                <option>レンジフードクリーニング</option>
-                <option>キッチンクリーニング</option>
-                <option>浴室クリーニング</option>
-                <option>洗面所クリーニング</option>
-                <option>トイレクリーニング</option>
-                <option>その他・複数箇所</option>
+                <option>Webサイト制作</option>
+                <option>ランディングページ制作</option>
+                <option>UI/UX改善</option>
+                <option>フロントエンド実装</option>
+                <option>SEO・アクセシビリティ改善</option>
+                <option>ポートフォリオ相談</option>
+                <option>その他</option>
               </select>
             </div>
             <div class="form-row">
-              <label for="preferred-date">希望日時</label>
+              <label for="preferred-date">希望時期</label>
               <input id="preferred-date" name="preferred-date" type="datetime-local">
             </div>
             <div class="form-row form-row--full">
               <label for="message">ご相談内容 <span aria-hidden="true">必須</span></label>
-              <textarea id="message" name="message" rows="5" required placeholder="例: エアコン1台、カビ臭が気になります。家具は動かしにくいです。"></textarea>
+              <textarea id="message" name="message" rows="5" required placeholder="例: 既存サイトのUIを改善したいです。目的、URL、希望時期を共有します。"></textarea>
             </div>
             <div class="form-row form-row--full">
-              <label for="feedback">サイトや相談時に改善してほしいこと</label>
-              <textarea id="feedback" name="feedback" rows="3" placeholder="任意: 料金表の見やすさ、希望する連絡方法など"></textarea>
+              <label for="feedback">このポートフォリオで気になったこと</label>
+              <textarea id="feedback" name="feedback" rows="3" placeholder="任意: 見やすかった点、もっと知りたい点など"></textarea>
             </div>
             <fieldset class="feedback-scale form-row--full">
               <legend>このページは分かりやすかったですか？</legend>
@@ -681,7 +632,7 @@
             </fieldset>
             <label class="privacy-check form-row--full">
               <input type="checkbox" required>
-              <span><a href="#privacy">個人情報保護方針</a>に同意して送信します</span>
+              <span><a href="#privacy">個人情報の扱い</a>に同意して送信します</span>
             </label>
             <button class="button button--primary form-row--full" type="submit" data-track="form_submit_attempt">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -697,24 +648,24 @@
       <section class="section section--privacy" id="privacy" aria-labelledby="privacy-title">
         <div class="container narrow">
           <p class="eyebrow">Privacy</p>
-          <h2 id="privacy-title">個人情報保護方針</h2>
-          <p>お問い合わせで取得した個人情報は、見積もり・連絡・サービス提供の目的に限って利用します。本人の同意なく第三者へ提供しません。</p>
+          <h2 id="privacy-title">個人情報の扱い</h2>
+          <p>フォームで取得した情報は、問い合わせ対応とプロジェクト相談の目的に限って利用します。本人の同意なく第三者へ提供しません。</p>
           <p>アクセス解析やA/Bテストを行う場合は、個人を直接特定しない範囲で閲覧行動を計測し、サイト改善に利用します。</p>
         </div>
       </section>
     </main>
 
     <nav class="mobile-quick" aria-label="固定お問い合わせボタン">
-      <a href="tel:0729259755" data-track="sticky_phone">電話</a>
-      <a href="#contact" data-track="sticky_quote">無料見積もり</a>
+      <a href="mailto:hello@example.com" data-track="sticky_phone">メール</a>
+      <a href="#contact" data-track="sticky_quote">相談する</a>
     </nav>
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <p><strong>おそうじのスギハラ（デモサイト）</strong></p>
-        <p>大阪府八尾市南小阪合町5丁目9-25 | 受付 9:00〜20:00 | <a href="tel:0729259755">072&#8209;925&#8209;9755</a></p>
-        <p><a href="#company">会社概要・特定商取引法に基づく表記</a> | <a href="#privacy">個人情報保護方針</a> | <a href="sitemap.xml">サイトマップ</a></p>
-        <p class="copyright">&copy; <span data-year></span> おそうじのスギハラ Demo Site</p>
+        <p><strong>Your Name Portfolio</strong></p>
+        <p>Web Design / Frontend / UI Improvement | <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p><a href="#company">プロフィール</a> | <a href="#privacy">個人情報の扱い</a> | <a href="sitemap.xml">サイトマップ</a></p>
+        <p class="copyright">&copy; <span data-year></span> Your Name Portfolio</p>
       </div>
     </footer>
 
